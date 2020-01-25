@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisSentinelDemo", "demo\RedisSentinelDemo\RedisSentinelDemo.csproj", "{58B48363-F8EE-47C9-A4E3-006CDD618696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20A5CDF9-3BE2-4FC4-8C1B-606F6D6EB54D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{5D13A6D4-868D-4582-B614-71D99C1B6AA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8913FB08-C3C4-45A2-BE84-89B65885C9CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Niazza.SentinelRedis", "src\Niazza.SentinelRedis\Niazza.SentinelRedis.csproj", "{B7AC6D22-B069-466A-8E73-22A9F6C237F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Niazza.SentinelRedis.Tests", "tests\Niazza.SentinelRedis.Tests\Niazza.SentinelRedis.Tests.csproj", "{C4753BBE-6E98-4323-90EA-6D3B837DACFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58B48363-F8EE-47C9-A4E3-006CDD618696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B48363-F8EE-47C9-A4E3-006CDD618696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B48363-F8EE-47C9-A4E3-006CDD618696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B48363-F8EE-47C9-A4E3-006CDD618696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AC6D22-B069-466A-8E73-22A9F6C237F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AC6D22-B069-466A-8E73-22A9F6C237F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AC6D22-B069-466A-8E73-22A9F6C237F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AC6D22-B069-466A-8E73-22A9F6C237F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4753BBE-6E98-4323-90EA-6D3B837DACFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4753BBE-6E98-4323-90EA-6D3B837DACFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4753BBE-6E98-4323-90EA-6D3B837DACFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4753BBE-6E98-4323-90EA-6D3B837DACFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58B48363-F8EE-47C9-A4E3-006CDD618696} = {5D13A6D4-868D-4582-B614-71D99C1B6AA2}
+		{B7AC6D22-B069-466A-8E73-22A9F6C237F8} = {20A5CDF9-3BE2-4FC4-8C1B-606F6D6EB54D}
+		{C4753BBE-6E98-4323-90EA-6D3B837DACFA} = {8913FB08-C3C4-45A2-BE84-89B65885C9CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A20EE30-0D5C-4CCA-A407-BBEB4EC6DF8C}
+	EndGlobalSection
+EndGlobal
